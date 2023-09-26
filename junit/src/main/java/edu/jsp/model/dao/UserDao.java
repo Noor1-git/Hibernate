@@ -1,4 +1,4 @@
-package edi.jsp.model.dao;
+package edu.jsp.model.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
