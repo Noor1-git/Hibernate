@@ -10,7 +10,7 @@ import edu.jsp.model.entity.User;
 public class UserDao {
 
 	EntityManagerFactory factory=Persistence.createEntityManagerFactory("junit");
-	EntityManager manager = factory.createEntityManager();
+	public EntityManager manager = factory.createEntityManager();
 
 	public User saveUser(User user) {
 		EntityTransaction transaction = manager.getTransaction();
