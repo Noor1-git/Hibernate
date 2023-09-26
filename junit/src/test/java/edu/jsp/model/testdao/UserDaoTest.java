@@ -35,6 +35,10 @@ class UserDaoTest {
 		
 		User daouser=dao.removeUser(id);
 		
+//		check user is not null;
+		assertNotNull(daouser);
+		
+//		check whether we are getting same user or not;
 		assertEquals(id, daouser.getId());
 	}
 	
@@ -47,6 +51,10 @@ class UserDaoTest {
 		
 		User daouser=dao.updateUser(id, email);
 		
+//		check user is not null;
+		assertNotNull(daouser);
+		
+//		check whether we are getting same user or not;
 		assertEquals(email, daouser.getEmail());
 	}
 	
@@ -56,6 +64,10 @@ class UserDaoTest {
 		
 		User daoUser=dao.searchUser(id);
 		
+//		check user is not null;
+		assertNotNull(daoUser);
+		
+//		check whether we are getting same user or not;
 		assertEquals(id, daoUser.getId());
 	}
 }
