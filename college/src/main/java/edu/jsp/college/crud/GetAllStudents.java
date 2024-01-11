@@ -25,5 +25,4 @@ public class GetAllStudents {
 			System.out.println("-------------------------------------------");
 		}
 	}
-
 }
